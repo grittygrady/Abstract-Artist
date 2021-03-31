@@ -33,25 +33,43 @@
           </p>
         </div>
       </section>
-      <section class="example-work">
-        <div class="img-container">
-          <img src="/img/shoe.jpg" alt="example art" />
-        </div>
-        <div class="img-container">
-          <img src="/img/lights-exposure.jpg" alt="example art" />
-        </div>
-        <div class="img-container">
-          <img src="/img/me-we.jpg" alt="example art" />
-        </div>
-        <div class="img-container">
-          <img src="/img/sand-sky.jpg" alt="example art" />
-        </div>
-        <div class="img-container">
-          <img src="/img/3-2.jpeg" alt="example art" />
-        </div>
+      <section class="grid">
+        <div class="grid-sizer"></div>
+
+        <img
+          src="/img/shoe.jpg"
+          alt="example art"
+          class="grid-item grid-item--height4"
+        />
+
+        <img
+          src="/img/lights-exposure.jpg"
+          alt="example art"
+          class="grid-item grid-item--height3 grid-item--width4"
+        />
+
+        <img
+          src="/img/me-we.jpg"
+          alt="example art"
+          class="grid-item grid-item--height4"
+        />
+
+        <img
+          src="/img/sand-sky.jpg"
+          alt="example art"
+          class="grid-item grid-item--height4"
+        />
+
+        <img src="/img/3-2.jpeg" alt="example art" class="grid-item" />
       </section>
     </main>
     <!-- MASONRYJS SCRIPT -->
-    <script src="/path/to/masonry.pkgd.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./main.js"></script>
   </body>
 </html>
