@@ -63,7 +63,7 @@ html {
 
 /* HERO */
 .hero {
-  height: 22em;
+  height: 30em;
   background-image: url(/img/color-lines.jpg), radial-gradient(#444, #222);
   background-position: center center;
   background-size: cover;
@@ -89,16 +89,16 @@ html {
   text-align: center;
 }
 
-.hero span:nth-of-type(1) {
+.hero span:nth-of-type(2) {
   opacity: 0.8;
 }
-.hero span:nth-of-type(2) {
+.hero span:nth-of-type(3) {
   opacity: 0.6;
 }
-.hero span:nth-of-type(3) {
+.hero span:nth-of-type(4) {
   opacity: 0.4;
 }
-.hero span:nth-of-type(4) {
+.hero span:nth-of-type(5) {
   opacity: 0.2;
 }
 
@@ -137,10 +137,19 @@ html {
   text-shadow: 3px 3px 9px #76acf3;
 }
 
+.portfolio h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 2.75em;
+    letter-spacing: .3em;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0px 0px 5px #76acf3;
+}
+
 /* MEDIA QUERIES */
 @media only screen and (min-width: 700px) {
   .hero {
-    height: 45em;
+    height: 70em;
   }
 
   .hero-title {
@@ -157,22 +166,22 @@ html {
     line-height: 1.3;
   }
 
-  .hero span:nth-of-type(1) {
+  .hero span:nth-of-type(2) {
     opacity: 0.8;
   }
-  .hero span:nth-of-type(2) {
+  .hero span:nth-of-type(3) {
     opacity: 0.6;
   }
-  .hero span:nth-of-type(3) {
+  .hero span:nth-of-type(4) {
     opacity: 0.4;
   }
-  .hero span:nth-of-type(4) {
+  .hero span:nth-of-type(5) {
     opacity: 0.2;
   }
 
   .artist-info {
     flex-direction: row;
-    padding: 2em 0;
+    padding: 2em 0 3em 0;
     justify-content: space-around;
     align-items: center;
     background-image: url(/img/abstract-bg.jpg);
@@ -201,6 +210,14 @@ html {
 
   .artist-details {
     width: 40vw;
+  }
+
+  .portfolio h2 {
+    font-size: 7em;
+    letter-spacing: .2em;
+    padding-top: .5em;
+    text-shadow: 0px 0px 9px #76acf3;
+    padding-top: .2em;
   }
 }
 

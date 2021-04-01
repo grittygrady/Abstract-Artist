@@ -6,25 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ABSTRACTION</title>
     <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <header class="hero">
       <div class="container">
-        <h1 class="hero-title">ABSTRACTION</h1>
-        <p>
-          A dream within a dream within a dream within a dream within a dream
-          within a dream within a <span>dream within a </span
-          ><span>dream within a </span><span>dream within a dream</span
+        <h1
+          class="hero-title"
+          data-aos="fade-in"
+          data-aos-once="false"
+          data-aos-duration="3000"
+        >
+          ABSTRACTION
+        </h1>
+        <p
+          data-aos="fade-up"
+          data-aos-duration="3000"
+          data-aos-once="false"
+          data-aos-delay="750"
+        >
+          <span
+            >A dream within a dream within a dream within a dream within a dream
+            within a dream within a </span
+          ><span>dream within a </span><span>dream within a </span
+          ><span>dream within a dream</span
           ><span> within a dream within...</span>
         </p>
       </div>
     </header>
     <main>
+      <!-- ARTIST INFO -->
       <section class="artist-info">
-        <div class="artist-pic">
+        <div class="artist-pic" data-aos="fade-right" data-aos-once="false">
           <img src="/img/remy.jpg" alt="Remy LeBeau" />
         </div>
-        <div class="artist-details">
+        <div class="artist-details" data-aos="fade-left" data-aos-once="false">
           <h2 class="artist-name">REMY LEBEAU</h2>
           <p class="short-bio">
             Strugggling from a young age as a pickpocket in New Orleans' French
@@ -33,26 +54,128 @@
           </p>
         </div>
       </section>
+      <!-- PORTFOLIO -->
       <div class="portfolio">
+        <h2
+          data-aos="fade-in"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-cubic"
+        >
+          LUCID DREAMS
+        </h2>
         <section class="photos">
-          <img src="/img/light-bulb.jpg" alt="example art" />
-          <img src="/img/mirror.jpg" alt="example art" />
-          <img src="/img/knife.jpg" alt="example art" />
-          <img src="/img/shoe.jpg" alt="example art" />
+          <img
+            src="/img/light-bulb.jpg"
+            alt="example art"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+          />
+          <img
+            src="/img/mirror.jpg"
+            alt="example art"
+            data-aos="zoom-out"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+            data-aos-delay="150"
+          />
+          <img
+            src="/img/knife.jpg"
+            alt="example art"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            data-aos-easing="ease"
+          />
+          <img
+            src="/img/shoe.jpg"
+            alt="example art"
+            data-aos="zoom-out"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+            data-aos-delay="500"
+          />
 
-          <img src="/img/lights-exposure.jpg" alt="example art" />
-          <img src="/img/whirly.jpg" alt="example art" />
+          <img
+            src="/img/lights-exposure.jpg"
+            alt="example art"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            data-aos-easing="ease"
+            data-aos-delay="500"
+          />
+          <img
+            src="/img/whirly.jpg"
+            alt="example art"
+            data-aos="zoom-out"
+            data-aos-duration="1500"
+            data-aos-easing="ease"
+            data-aos-delay="500"
+          />
 
-          <img src="/img/me-we.jpg" alt="example art" />
-          <img src="/img/earth.jpg" alt="example art" />
+          <img
+            src="/img/me-we.jpg"
+            alt="example art"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+            data-aos-delay="600"
+          />
+          <img
+            src="/img/earth.jpg"
+            alt="example art"
+            data-aos="zoom-out"
+            data-aos-duration="1500"
+            data-aos-easing="ease"
+            data-aos-delay="600"
+          />
 
-          <img src="/img/sand-sky.jpg" alt="example art" />
+          <img
+            src="/img/sand-sky.jpg"
+            alt="example art"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            data-aos-easing="ease"
+            data-aos-delay="700"
+          />
 
-          <img src="/img/3-2.jpeg" alt="example art" />
-          <img src="/img/smoke-face.jpg" alt="example art" />
-          <img src="/img/coffee-create.jpg" alt="example art" />
+          <img
+            src="/img/3-2.jpeg"
+            alt="example art"
+            data-aos="zoom-out"
+            data-aos-duration="1500"
+            data-aos-easing="ease"
+            data-aos-delay="700"
+          />
+          <img
+            src="/img/smoke-face.jpg"
+            alt="example art"
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            data-aos-easing="ease"
+            data-aos-delay="500"
+          />
+          <img
+            src="/img/coffee-create.jpg"
+            alt="example art"
+            data-aos="zoom-out"
+            data-aos-duration="1500"
+            data-aos-easing="ease"
+            data-aos-delay="500"
+          />
         </section>
       </div>
     </main>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      AOS.init({
+        delay: 200,
+        duration: 1200,
+        once: false,
+      });
+    </script>
   </body>
 </html>
