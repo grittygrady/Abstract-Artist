@@ -55,6 +55,7 @@ html {
   /* Just in case there are inline attributes */
   width: 100% !important;
   height: auto !important;
+  box-shadow: 1px 1px 3px #76acf3;
 }
 
 
