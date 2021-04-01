@@ -146,6 +146,23 @@ html {
     text-shadow: 0px 0px 5px #76acf3;
 }
 
+/* CONTACT INFO */
+.contact-info {
+  background-image: url(/img/green-table.jpg);
+  height: 29em;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contact-info h2 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 2.5em;
+  text-align: center;
+  letter-spacing: .25em;
+  color: #fff;
+  text-shadow: 0px 0px 3px #76acf3;
+}
+
 /* MEDIA QUERIES */
 @media only screen and (min-width: 700px) {
   .hero {
@@ -218,6 +235,21 @@ html {
     padding-top: .5em;
     text-shadow: 0px 0px 9px #76acf3;
     padding-top: .2em;
+  }
+
+  .contact-info {
+    background-image: url(/img/green-table.jpg);
+    height: 40em;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .contact-info h2 {
+    font-size: 5em;
+    letter-spacing: .2em;
+    padding-top: .5em;
+    text-shadow: 0px 0px 5px #76acf3;
   }
 }
 
