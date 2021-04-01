@@ -293,7 +293,7 @@ html {
   }
 
   .contact-info {
-    background-image: url(./img/green-table.jpg), radial-gradient(#444, #222);
+    background-image: url(https://raw.githubusercontent.com/grittygrady/Abstract-Artist/main/img/green-table.jpg), radial-gradient(#444, #222);
     height: 40em;
     background-position: center center;
     background-size: cover;
