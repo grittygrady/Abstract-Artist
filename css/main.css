@@ -313,6 +313,7 @@ html {
   
   .contact-methods p {
     font-size: 3em;
+    text-shadow: 0px 0px 5px #76acf3;
   }
 
   #copyright {
