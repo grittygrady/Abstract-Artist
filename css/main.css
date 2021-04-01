@@ -64,7 +64,7 @@ html {
 /* HERO */
 .hero {
   height: 30em;
-  background-image: url(./img/color-lines.jpg), radial-gradient(#444, #222);
+  background-image: url(https://raw.githubusercontent.com/grittygrady/Abstract-Artist/main/img/color-lines.jpg), radial-gradient(#444, #222);
   background-position: center center;
   background-size: cover;
   background-blend-mode: screen;
