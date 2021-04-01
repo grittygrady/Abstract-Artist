@@ -7,8 +7,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Christopher Grady",
-  "license": "MIT",
-  "dependencies": {
-    "masonry-layout": "^4.2.2"
-  }
+  "license": "MIT"
 }
