@@ -64,7 +64,7 @@ html {
 /* HERO */
 .hero {
   height: 30em;
-  background-image: url(/img/color-lines.jpg), radial-gradient(#444, #222);
+  background-image: url(./img/color-lines.jpg), radial-gradient(#444, #222);
   background-position: center center;
   background-size: cover;
   background-blend-mode: screen;
@@ -148,7 +148,7 @@ html {
 
 /* CONTACT INFO */
 .contact-info {
-  background-image: url(/img/green-table.jpg);
+  background-image: url(./img/green-table.jpg);
   height: 25em;
   background-position: center center;
   background-size: cover;
@@ -190,7 +190,7 @@ html {
 }
 
 .contact-info {
-  background-image: url(/img/green-table.jpg), radial-gradient(#444, #222);
+  background-image: url(./img/green-table.jpg), radial-gradient(#444, #222);
   background-blend-mode: multiply;
   height: 20em;
   background-position: center center;
@@ -256,7 +256,7 @@ html {
     padding: 2em 0 3em 0;
     justify-content: space-around;
     align-items: center;
-    background-image: url(/img/abstract-bg.jpg);
+    background-image: url(./img/abstract-bg.jpg);
     background-position: bottom;
     background-size: contain;
     background-repeat: no-repeat;
@@ -293,7 +293,7 @@ html {
   }
 
   .contact-info {
-    background-image: url(/img/green-table.jpg), radial-gradient(#444, #222);
+    background-image: url(./img/green-table.jpg), radial-gradient(#444, #222);
     height: 40em;
     background-position: center center;
     background-size: cover;
