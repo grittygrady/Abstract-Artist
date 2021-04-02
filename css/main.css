@@ -295,7 +295,7 @@ html {
   }
 
   .photos img {
-    
+    -webkit-box-shadow: 0px 0px 0em #76acf3;
     box-shadow: 0px 0px .3em #76acf3;
   }
 
