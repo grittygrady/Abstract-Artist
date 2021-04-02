@@ -47,7 +47,6 @@ html {
   -moz-column-gap: 1em;
   column-count: 5;
   column-gap: 1em;
-  row-gap: 1em;
   padding: 1em;
 }
 
@@ -55,7 +54,7 @@ html {
   /* Just in case there are inline attributes */
   width: 100% !important;
   height: auto !important;
-  box-shadow: 0px 0px .3em #76acf3;
+  /* box-shadow: 0px 0px .3em #76acf3; */
 }
 
 
@@ -290,6 +289,11 @@ html {
     padding-top: .5em;
     text-shadow: 0px 0px 9px #76acf3;
     padding-top: .2em;
+  }
+
+  .photos img {
+    
+    box-shadow: 0px 0px .3em #76acf3;
   }
 
   .contact-info {
