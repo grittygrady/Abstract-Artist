@@ -49,13 +49,15 @@ html {
   column-count: 5;
   column-gap: 1em;
   padding: 1em;
+  width: 100vw;
 }
 
 .photos img {
   /* Just in case there are inline attributes */
   width: 100% !important;
   height: auto !important;
-  /* box-shadow: 0px 0px .3em #76acf3; */
+  box-shadow: 0px 0px .3em #76acf3;
+  -webkit-box-shadow: 0px 0px 0em #76acf3;
 }
 
 
@@ -65,7 +67,7 @@ html {
 .hero {
   height: 30em;
   background-image: url(https://raw.githubusercontent.com/grittygrady/Abstract-Artist/main/img/color-lines.jpg), radial-gradient(#444, #222);
-  background-position: center center;
+  background-position: center;
   background-size: cover;
   background-blend-mode: screen;
   margin-top: 0;
